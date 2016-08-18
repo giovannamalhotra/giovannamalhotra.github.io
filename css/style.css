@@ -246,7 +246,7 @@ ul li { font-size: 15px; line-height: 1.5;}
 }
 
 /* Small devices */ 
-@media (max-width: @screen-sm-max) {
+@media (max-width: 768px) {
 	.custom-section { padding: 2.5rem;}
 	.custom-name-container { margin-top: 0; }
 	h1, .h1 { font-size: 2rem; }
