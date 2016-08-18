@@ -72,7 +72,16 @@ html {
 }
 .custom-img-container img { margin-top: 0.5rem;}
 
-.custom-about-me-top img { max-width: 300px;}
+.custom-about-me-top img { 
+	max-width: 300px;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotateY(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotateY(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotateY(360deg); transform:rotateY(360deg); } }
+
 
 .custom-about-me-text-container {
 	padding: 1rem;
@@ -142,41 +151,53 @@ ul li { font-size: 15px; line-height: 1.5;}
 
 .custom-genee-img {
 	border: solid;
-	height: 40rem;
-	width: 30rem;
-	margin-left: 3rem;
-	margin-top: 1rem;	
+	height: 30rem;
+/*	width: 30rem; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+
 }
 .custom-dashup-img {
 	border: solid;
-	height: 35rem;
-	width: 35rem;
-	margin-left: 3rem;
+	height: 25rem;
+/*	width: 35rem; */
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 1rem;		
 }
 
 .custom-reserv-img {
 	border: solid;
-	height: 30rem;
-	width: 35rem;
+	height: 25rem;
+/*	width: 55rem; */
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 1rem;	
 }
 .custom-ins-selec-img {
 	border: solid;
-	height: 35rem;
-	width: 35rem;
-	margin-right: 2rem;	
-	margin-top: 1.5rem;
+	height: 25rem;
+/*	width: 40rem; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
 }
 
 
 .custom-description {
-	padding-right: 4rem;
+	padding-right: 1.2rem;
+	padding-left: 1.2rem;
 	text-align: justify;
 }
+.custom-image {
+	padding-right: 1.2rem;
+	padding-left: 1.2rem;	
+}
 
-.custom-descr-right { padding-left: 6rem;}
-
+/*
+.custom-descr-right { padding-left: 1rem;}
+*/
 
 /* ------ Work Experience Styling ------- */
 
