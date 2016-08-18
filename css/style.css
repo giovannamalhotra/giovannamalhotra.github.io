@@ -1,4 +1,5 @@
-body {
+html {
+	font-size: 90%;
 }
 
 .row {
@@ -88,7 +89,7 @@ body {
 ul li { font-size: 15px; line-height: 1.5;}
 
 .custom-section {
-	padding: 7rem;
+	padding: 3rem;
 	min-height: 100vh;
 }
 #skills.custom-section {
@@ -108,8 +109,8 @@ ul li { font-size: 15px; line-height: 1.5;}
 	font-family: arial;
 	font-weight: bold;
 	text-align: left;
-	font-size: 3rem;
-	padding-bottom: 2.5rem;
+	font-size: 2rem;
+	padding-bottom: 1rem;
 
 	color: #CC9AA2;  /* pink */
 	color: #984d59;
@@ -196,7 +197,7 @@ ul li { font-size: 15px; line-height: 1.5;}
 	padding-bottom: 0.9rem;
 }
 .job {
-	margin: 3rem 0 4rem 0;
+	margin: 2rem 0 3rem 0;
 }
 .jobResponsibilities {margin-bottom: 0;}
 
@@ -243,4 +244,29 @@ ul li { font-size: 15px; line-height: 1.5;}
 	#work .row, #experience .job.row, .technicalSkills, .functionalSkills { margin-left:0; margin-right:0;}
 
 }
+
+/* Small devices */ 
+@media (max-width: @screen-xs-max) {
+	.custom-section { padding: 2.5rem;}
+	.custom-name-container { margin-top: 0; }
+	h1, .h1 { font-size: 2rem; }
+	.custom-section-title { padding-bottom: 0.5rem; font-size: 1.5rem; line-height: 1.2; }
+	h4, .h4 { margin-top: 1.5rem; font-size: 1.2rem;}
+	.custom-title h4 { margin-top: 0.5rem; }
+	.custom-paragraph { font-size: 1rem;}
+	.custom-about-me-top { margin-top: 0;}
+	.custom-genee-img { height: 25rem; width: 20rem; }
+	.custom-dashup-img { height: 20rem; width: 20rem;}
+	.custom-reserv-img { height: 25rem; width: 25rem;}
+	.custom-ins-selec-img { height: 25rem; width: 25rem;}
+	ul { -webkit-padding-start: 25px; }
+	.job .jobColumn1 { width: 100%; text-align: left; padding-top: 0.5rem;}
+	.job .jobColumn2 { width: 100%; padding-left: 0; padding-right: 0; padding-top: 0.8rem; }
+	.job { margin: 2rem 0 2rem 0;}
+	.company, .companyLocation { display: inline-block; }
+}
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+.custom-section { padding: 4rem;}
+}	
 
