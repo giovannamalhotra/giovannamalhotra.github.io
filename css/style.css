@@ -246,7 +246,7 @@ ul li { font-size: 15px; line-height: 1.5;}
 }
 
 /* Small devices */ 
-@media (max-width: @screen-xs-max) {
+@media (max-width: @screen-sm-max) {
 	.custom-section { padding: 2.5rem;}
 	.custom-name-container { margin-top: 0; }
 	h1, .h1 { font-size: 2rem; }
@@ -267,6 +267,6 @@ ul li { font-size: 15px; line-height: 1.5;}
 }
 
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
-.custom-section { padding: 4rem;}
+	.custom-section { padding: 4rem;}
 }	
 
