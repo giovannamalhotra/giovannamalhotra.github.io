@@ -1,0 +1,163 @@
+body {
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+.custom-navigation-container {
+	border-style: solid;
+}
+
+.nav a {
+	color: white !important;	
+}
+.nav a:hover {
+	color: #CC9AA2 !important;
+	border-radius: 4px;
+}
+
+.custom-header { 
+	height: 60em; 
+/*	position: fixed; */
+	text-align: left;
+	width: 100%; 
+	color: white;
+
+	background: url(img/Profile1.png) 50% 50% no-repeat fixed;
+	background: url(img/Profile1.png) no-repeat fixed;
+	background-size: cover; /* Make picture expand to cover entire section */
+	background-color: #404040;  	
+}
+
+.custom-name-container {
+	font-weight: bold;
+	font-size: 120%;
+	font-family: helvetica, sans-serif;
+	margin-top: 3rem;
+}
+
+.custom-title {
+	font-style: italic;
+}
+
+.custom-content { 
+	/* background: url(static/photo_apple.jpg) 50% 0 no-repeat; */
+	background: 50% 0 no-repeat;	 
+	height: auto; 
+	margin: 0 auto; 
+	width: 100%; 
+	max-width: 1920px; 
+	position: relative; 
+	/*-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8); */
+}
+
+.custom-about-me-top {
+	display: inline-block;
+	margin-right: 4em;
+	margin-top: 3em;	
+}
+.custom-img-container {
+	float: left;
+	padding: 1em;
+	width:40%;
+}
+.custom-about-me-text-container {
+	float:right;
+	padding: 1em;
+	width:60%;
+	text-align: justify;
+}
+
+.custom-paragraph {
+	padding-bottom: 2rem;
+	font-size: 16px;
+}
+ul li { font-size: 14px;}
+
+.custom-section {
+	padding: 5em;
+}
+.custom-odd-section {
+	background-color: white;
+}
+
+.custom-even-section {
+	background-color: #E6E6E6; /* light gray*/
+}
+
+.custom-section-title {
+	font-style: italic;
+	font-family: arial;
+	color: #CC9AA2;  /* pink */
+	font-weight: bold;
+	text-align: left;
+	font-size: 3rem;
+	padding-bottom: 0.5em;
+}
+
+.custom-section-title-desc {
+	padding-bottom: 2em;
+	font-style: italic;
+}
+
+/* ------ Work section styling -----------*/
+
+.custom-genee-img {
+	border: solid;
+	height: 25em;
+	width: 30em;
+	margin-right: 6em;	
+}
+.custom-reserv-img {
+	border: solid;
+	height: 25em;
+	width: 22em;
+	margin-right: 6em;	
+}
+.custom-ins-selec-img {
+	border: solid;
+	height: 30em;
+	width: 25em;
+	margin-right: 2em;	
+	margin-top: 3em;
+}
+
+
+.custom-description {
+	padding-right: 4em;
+	text-align: justify;
+}
+
+/* ------ Work Experience Styling ------- */
+
+.jobHeader {
+	color: black;
+	padding-top: 1.5em;
+	padding-bottom: 2em:;
+	font-weight: bold;
+}
+.jobRole {
+	font-weight: bold;
+	font-style: italic;
+}
+.jobRole2 {
+	padding-top: 0em;
+	padding-bottom: 0.9em;
+}
+
+
+/* ------  Footer ---------*/
+.custom-footer {
+	background-color: black;
+	border-style: solid;
+/*	border-top-color: #EA46A1; */
+	/* opacity: 0.9; */
+	height: 5em;
+}
+
+
+
