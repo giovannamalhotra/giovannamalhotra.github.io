@@ -41,7 +41,7 @@ html {
 	font-weight: bold;
 	font-size: 120%;
 	font-family: helvetica, sans-serif;
-	margin-top: 3rem;
+	margin-top: 2rem;
 }
 
 .custom-title {
@@ -63,7 +63,7 @@ html {
 .custom-about-me-top {
 	display: inline-block;
 	margin-right: 4rem;
-	margin-top: 2rem;	
+	margin-top: 1rem;	
 }
 .custom-img-container {
 	padding: 1rem;
@@ -98,7 +98,8 @@ html {
 ul li { font-size: 15px; line-height: 1.5;}
 
 .custom-section {
-	padding: 3rem;
+/*	padding: 3rem; */
+	padding: 4.5rem 3rem 3rem;
 	min-height: 100vh;
 }
 #skills.custom-section {
@@ -250,8 +251,8 @@ ul li { font-size: 15px; line-height: 1.5;}
 /* --- Overwrite Bootstrap CSS --- */
 @media (min-width: 768px) {
 	.navbar-nav>li>a {
-	    padding-top: 8px;
-	    padding-bottom: 8px;
+	    padding-top: 6px;
+	    padding-bottom: 6px;
 	}
 }
 
