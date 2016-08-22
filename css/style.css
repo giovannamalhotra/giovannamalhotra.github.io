@@ -44,6 +44,18 @@ html {
 	margin-top: 2rem;
 }
 
+.custom-name-header {
+	border: 1px solid transparent;
+    width: 400px;
+}
+.custom-name-header h1 { cursor: pointer; }
+
+/* .custom-name-header h1:hover {  */
+.custom-name-header:hover {
+	transform: scale(1.2, 1.2) skewY(-20deg);; 
+/*	animation: increase 2s linear; */
+}
+
 .custom-title {
 	font-style: italic;
 }
@@ -100,7 +112,7 @@ ul li { font-size: 15px; line-height: 1.5;}
 .custom-section {
 /*	padding: 3rem; */
 	padding: 4.5rem 3rem 3rem;
-	min-height: 100vh;
+/*	min-height: 100vh; */
 }
 #skills.custom-section {
 	min-height: auto;	
@@ -126,6 +138,51 @@ ul li { font-size: 15px; line-height: 1.5;}
 	color: #984d59;
     opacity: 0.7;
 }
+
+/* #skills .custom-section-title, #experience .custom-section-title { */
+#skills .custom-section-title, #experience .custom-section-title {
+	animation: moveLeft 4s linear infinite;
+}
+@-moz-keyframes moveLeft { 	
+	0% {margin-left: 0;}
+	10% { margin-left: 50px;}
+	20% { margin-left: 100px;}
+	30% { margin-left: 150px;}
+	40% { margin-left: 200px;}
+	50% { margin-left: 250px;}
+	60% { margin-left: 300px;}
+	70% { margin-left: 350px;}
+	80% { margin-left: 400px;}
+	90% { margin-left: 450px;}
+	100% { margin-left: 500px;}
+}
+@-webkit-keyframes moveLeft { 	
+	0% {margin-left: 0;}
+	10% { margin-left: 50px;}
+	20% { margin-left: 100px;}
+	30% { margin-left: 150px;}
+	40% { margin-left: 200px;}
+	50% { margin-left: 250px;}
+	60% { margin-left: 300px;}
+	70% { margin-left: 350px;}
+	80% { margin-left: 400px;}
+	90% { margin-left: 450px;}
+	100% { margin-left: 500px;}
+}
+@keyframes moveLeft { 	
+	0% {margin-left: 0;}
+	10% { margin-left: 50px;}
+	20% { margin-left: 100px;}
+	30% { margin-left: 150px;}
+	40% { margin-left: 200px;}
+	50% { margin-left: 250px;}
+	60% { margin-left: 300px;}
+	70% { margin-left: 350px;}
+	80% { margin-left: 400px;}
+	90% { margin-left: 450px;}
+	100% { margin-left: 500px;}
+}
+
 
 .custom-section-title-desc {
 	padding-bottom: 2rem;
@@ -247,6 +304,28 @@ ul li { font-size: 15px; line-height: 1.5;}
 .custom-footer a:hover, .custom-footer a:focus {
 	color: #CC9AA2;
 }
+
+.custom-linkedIn-icon {
+	animation: fullRotation 1s linear infinite;
+}
+
+.custom-linkedIn-icon:hover {
+	animation: none;
+}
+
+@-moz-keyframes fullRotation {
+	20% { transform: rotateX(360deg); }
+	50% { transform: rotateX(0deg); }
+}
+@-webkit-keyframes fullRotation {
+	20% { transform: rotateX(360deg); }
+	50% { transform: rotateX(0deg); }
+}
+@keyframes fullRotation {
+	20% { transform: rotateX(360deg); }
+	50% { transform: rotateX(0deg); }
+}
+
 
 /* --- Overwrite Bootstrap CSS --- */
 @media (min-width: 768px) {
