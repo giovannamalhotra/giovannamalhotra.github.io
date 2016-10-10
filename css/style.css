@@ -330,7 +330,7 @@ ul li { font-size: 15px; line-height: 1.5;}
 /* --- Insight Data Engineering Project --- */
 .selectionBlock {
 	width: 100%;
-    height: 15rem;
+    height: 5rem;
     border: 1px solid #3277b3;
     cursor: pointer;
     position: relative;
