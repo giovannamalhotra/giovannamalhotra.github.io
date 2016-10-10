@@ -350,14 +350,15 @@ ul li { font-size: 15px; line-height: 1.5;}
 }
 
 .block1 { padding-right: 1rem; }
-.block2 { padding-left: 1rem; }
+.block2 { padding-left: 0; padding-right: 0; }
+.block3 { padding-left: 1rem; }
 
 .blockTitle {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2rem;
+    font-size: 1.5rem;
     min-width: 100%;
     text-align: center;
 }
@@ -385,7 +386,7 @@ ul li { font-size: 15px; line-height: 1.5;}
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-	.blockTitle { font-size: 1.5rem;}
+	.blockTitle { font-size: 1.3rem;}
 }
 
 /* Small devices */ 
