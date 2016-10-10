@@ -362,7 +362,7 @@ ul li { font-size: 15px; line-height: 1.5;}
     text-align: center;
 }
 
-
+#aboutMe .custom-section-title { margin-top: 3rem; }
 
 
 /* --- Overwrite Bootstrap CSS --- */
@@ -382,6 +382,10 @@ ul li { font-size: 15px; line-height: 1.5;}
 	#work .custom-image img { margin-left: auto; margin-right: auto;}
 	#work .row, #experience .job.row, .technicalSkills, .functionalSkills { margin-left:0; margin-right:0;}
 
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.blockTitle { font-size: 1.5rem;}
 }
 
 /* Small devices */ 
