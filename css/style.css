@@ -410,7 +410,7 @@ ul li { font-size: 15px; line-height: 1.5;}
 	.company, .companyLocation { display: inline-block; }
 	.custom-img-container img { width: 50%;}
 	.selectionBlock { height: 8rem;}
-	.blockTitle { font-size: 1.3rem;}
+	.blockTitle { font-size: 1.1rem;}
 }
 
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
